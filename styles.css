@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+* {
+    border: red dashed 1px;
+}
+.container {
+    background-color: white;
+    width:50%;
+}
+.PaymentCard { 
+    background-color: yellow;
+}
+.header {
+    background-color: red;
+}
+.text {
+    background-color: orange;
+}
+.CreditInfo {
+    background-color: purple;
+    display: flex;
+}
+.CreditCard {
+    width: 50%
+}
+.UpperBody {
+    display: flex;
+}
+.UpperBodyLeft {
+    background-color: blue;
+    width: 50%;
+}
+.UpperBodyRight {
+    width: auto;
+}
+.LastName {
+    width: 100%;
+}
+.StateCode {
+    display: flex;
+}
+.State {
+    width: 50%
+}
+.LowerBody {
+    display: flex;
+}
+.Logos {
+    width: 50%;
+}
+
+
