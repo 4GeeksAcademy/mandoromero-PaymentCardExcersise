@@ -3,9 +3,10 @@ body {
 }
 .Container {
     background-color: white;
-    margin: 20px 10px;
+    margin: auto;
     padding-top: 30px;
     padding-bottom: 30px;
+    width: 50%;
 }
 .PaymentCard {
     background-color: white;
@@ -20,7 +21,7 @@ body {
     background-color: #ded8d8;
     
 }
-.Body {
+.Content {
     padding: 10px;
 }
 .Alert {
@@ -30,22 +31,24 @@ body {
     padding: 12px 20px;
     font-size: 12px;
 }
+p {
+    font-size: 10px;
+}
 .CreditInfo {
     display: flex;
-    gap: 20px;
-}
-p {
-    font-size: 12px;
 }
 .CreditCard {
     width: 50%;
 }
 .CVC{
-    width: 15%
+    width: 25%;
+}
+.Amount {
+    padding-left: 40px;
 }
 .Name {
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 .FirstName {
     width: 50%;
@@ -59,12 +62,22 @@ p {
 .State {
     width: 25%;
 }
+.CredMess {
+    display: flex;
+}
+.Icons {
+    width: 50%;
+}
 .Footer {
     padding: 6px;
     border-top:solid black 1px;
     background-color: #ded8d8;
     min-height: 36px;
     gap: 6px;
+    display: flex;
+}
+    .Spacer {
+        width: 100%;
 }   
 .btn-cancel {
         background-color: gray;
@@ -73,6 +86,7 @@ p {
         font-size: 12px;
         border-radius: 4px;
         color: white;
+        margin-left: auto;
 }
 .btn-send {
         background-color: blue;

@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <script src="https://kit.fontawesome.com/77743ea4cc.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <title>Payment Card Excersise</title>
     </head>
@@ -11,7 +12,7 @@
                 <div class="Header">
                     <strong>Payment Form Example</strong>
                 </div>
-                <div class="Body">
+                <div class="Content">
                     <div class="Alert">
                         Some fields are missing         
                     </div>
@@ -22,11 +23,11 @@
                         </div>
                         <div class="CVC">
                             <p>CVC</p>
-                            <input type="text" name="CVC" placeholder="CVC">
+                            <input type="text" name="cvc" placeholder="XXXX">
                         </div>
                         <div class="Amount">
                             <p>Amount</p>
-                            $<input type="text" name="Amount" placeholder="Amount">
+                            <input type="text" name="amount" placeholder="Amount">
                         </div>
                     </div>
                     <div class="Name">
@@ -105,17 +106,33 @@
                         </div>
                     </div>
                     <div class="CredMess">
-                        CredMess
+                        <div class="Icons">
+                            <p>We accept:</p>
+                            <input type = "radio" name = "card" value="Mastercard">
+                            <i class="fa-brands fa-cc-mastercard"></i>
+                            <input type = "radio" name = "card" value="Visa">
+                            <i class="fa-brands fa-cc-visa"></i>
+                            <input type="radio" name="card" value="AmEx">
+                            <i class="fa-brands fa-cc-amex"></i>
+                            <input type="radio" name="card" value="Discover">
+                            <i class="fa-brands fa-cc-discover"></i>
+                        </div>
+                        <div class="Messages">
+                            <p>Message</p>
+                            <textarea type="text" name="Message" rows="3" ></textarea>
+                            <p>Add message here</p>
+                        </div>        
                     </div>
-                </div>
+                </div>        
                 <div class="Footer">
+                    <div class="Spacer"></div>
                     <button class="btn-cancel">
                         Cancel
                     </button>
                     <button class="btn btn-send">
-                        Send
-                    </button>
-                </div>
+                        Send                        </button>
+                    </div>
+                </div>    
             </div>
         </div>
     </body>
