@@ -1,53 +1,84 @@
 body {
     background-color: black;
 }
-* {
-    border: red dashed 1px;
-}
-.container {
+.Container {
     background-color: white;
-    width:50%;
+    margin: 20px 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.PaymentCard { 
-    background-color: yellow;
+.PaymentCard {
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 6px;
+    margin: 30px;
 }
-.header {
-    background-color: red;
+.Header {
+    font-size: 25px;
+    padding: 6px;
+    border-bottom:solid black 1px;
+    background-color: #ded8d8;
+    
 }
-.text {
-    background-color: orange;
+.Body {
+    padding: 10px;
+}
+.Alert {
+    background-color: pink;
+    border: solid 1px red;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 12px;
 }
 .CreditInfo {
-    background-color: purple;
     display: flex;
+    gap: 20px;
+}
+p {
+    font-size: 12px;
 }
 .CreditCard {
-    width: 50%
-}
-.UpperBody {
-    display: flex;
-}
-.UpperBodyLeft {
-    background-color: blue;
     width: 50%;
 }
-.UpperBodyRight {
-    width: auto;
+.CVC{
+    width: 15%
 }
-.LastName {
-    width: 100%;
-}
-.StateCode {
+.Name {
     display: flex;
+    gap: 20px;
+}
+.FirstName {
+    width: 50%;
+}
+.CSC {
+    display: flex;
+}
+.City {
+    width: 50%;
 }
 .State {
-    width: 50%
+    width: 25%;
 }
-.LowerBody {
-    display: flex;
+.Footer {
+    padding: 6px;
+    border-top:solid black 1px;
+    background-color: #ded8d8;
+    min-height: 36px;
+    gap: 6px;
+}   
+.btn-cancel {
+        background-color: gray;
+        padding: 8px 10px;
+        border: none;
+        font-size: 12px;
+        border-radius: 4px;
+        color: white;
 }
-.Logos {
-    width: 50%;
+.btn-send {
+        background-color: blue;
+        padding: 8px 10px;
+        border: none;
+        font-size: 12px;
+        border-radius: 4px;
+        color: white;
 }
-
-
