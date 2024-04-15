@@ -40,11 +40,18 @@ p {
 .CreditCard {
     width: 50%;
 }
+.inputwidth {
+    width: 80%;
+}
+.label {
+    margin-bottom: 5px;
+}
 .CVC{
     width: 25%;
 }
 .Amount {
     padding-left: 40px;
+    width: 20px;
 }
 .Name {
     display: flex;
@@ -53,14 +60,17 @@ p {
 .FirstName {
     width: 50%;
 }
+.inputwidthname {
+    width: 67%;
+}
 .CSC {
     display: flex;
 }
 .City {
     width: 50%;
 }
-.State {
-    width: 25%;
+.inputwidthcity {
+    width: 67%;
 }
 .CredMess {
     display: flex;
