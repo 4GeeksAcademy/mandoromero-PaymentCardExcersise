@@ -1,12 +1,12 @@
 body {
     background-color: black;
+    padding: 200px;
 }
 .Container {
     background-color: white;
-    margin: auto;
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 50%;
+    width: 800px;
 }
 .PaymentCard {
     background-color: white;
@@ -38,30 +38,41 @@ p {
     display: flex;
 }
 .CreditCard {
-    width: 50%;
+    width: 40%;
 }
 .inputwidth {
     width: 80%;
 }
+.inputwidthCC {
+    width: 75%;
+}
 .label {
     margin-bottom: 5px;
 }
-.CVC{
-    width: 25%;
+.inputwidthCVC {
+    width: 50%;
 }
-.Amount {
-    padding-left: 40px;
-    width: 20px;
+.Amount {   
+    width: 40%
+}
+.inputwidthAmount {
+    width: 94%;
 }
 .Name {
     display: flex;
     gap: 10px;
 }
 .FirstName {
-    width: 50%;
+    width:50%;
 }
 .inputwidthname {
-    width: 67%;
+    width: 90%;
+}
+.LastName {
+    width: 50%;
+}
+.inputwidthLast {
+    width: 95%;
 }
 .CSC {
     display: flex;
@@ -70,7 +81,16 @@ p {
     width: 50%;
 }
 .inputwidthcity {
-    width: 67%;
+    width: 88%;
+}
+.Code {
+    width:100%;
+}
+.selectwidthstate {
+    width:80%;
+}
+.inputwidthZip {
+    width: 85%
 }
 .CredMess {
     display: flex;
