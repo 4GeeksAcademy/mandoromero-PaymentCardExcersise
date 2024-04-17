@@ -83,6 +83,9 @@ p {
 .inputwidthcity {
     width: 88%;
 }
+.State {
+    margin-right: 26px;
+}
 .Code {
     width:100%;
 }
@@ -90,13 +93,20 @@ p {
     width:80%;
 }
 .inputwidthZip {
-    width: 85%
+    width: 100%;
 }
 .CredMess {
     display: flex;
 }
 .Icons {
     width: 50%;
+}
+.Messege {
+    width: 100%;
+}
+textarea {
+    width:100%;
+    margin-right:3px;
 }
 .Footer {
     padding: 6px;
@@ -106,7 +116,7 @@ p {
     gap: 6px;
     display: flex;
 }
-    .Spacer {
+.Spacer {
         width: 100%;
 }   
 .btn-cancel {
